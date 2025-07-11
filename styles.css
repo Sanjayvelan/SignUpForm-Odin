@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url('Norse-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+p,label,input{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: white;
+    margin-left: 17%;
+    margin-right: 17%;
+    display: flex;
+}
+
+/* part-1 */
+
+.sidebar{
+    background-image: url("halie-west-img.jpg");
+    background-size: cover;
+    background-position: right;
+    width: 38%;
+    height: 900px;
+    position: relative;
+}
+
+.logo{
+    background-color: rgba(24, 22, 22, 0.5);
+    display: flex;
+    max-height: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40%;
+    padding: 10px;
+}
+
+.logo-img{
+    height: 110px;
+}
+
+.logo-text{
+    font-family: Norse-Bold;
+    font-size: 5rem;
+    color: white;
+}
+
+.copyright{
+    color: rgb(230, 230, 230);
+    position:absolute;
+    bottom: 1%;
+    font-style: oblique;
+
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+
+/* part-2 */
+
+.content{
+    width: 62%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.intro{
+    flex: 0 0 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 150px 0 40px;
+}
+
+.signup{
+    flex: 0 0 31%;
+    box-shadow: 5px 0 8px rgba(0, 0, 0, 0.2);
+}
+.submission{
+    flex: 0 0 33%;
+}
+
+.intro-text{
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+}
+
+.intro-text-2{
+    padding-bottom: 50px;
+}
+
+
+.signup-text{
+    font-size: 1.4rem;
+    padding: 20px 10px;
+    margin-left: 30px;
+}
+
+.signup-form{
+    margin-left: 40px;
+    margin-right: 180px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-items{
+    width: calc(100%/2 - 20px);
+}
+
+input{
+    padding: 5px 50px 5px 5px;
+    border-radius: 5px;
+    border: 1px solid #E5E7EB;
+}
+
+input:focus{
+    outline: none;
+    border-color: blue;
+    box-shadow: 1px 1px 5px rgba(0, 0,0, 0.2);
+}
+
+input[type = "password"]{
+    border: 1px solid red;
+}
+
+label{
+    font-size: small;
+}
+
+.sumbit-btn{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 15px 50px;
+    background-color: #596D48;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.submission-text{
+    margin: 30px 0 0 40px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.login-text{
+    color: #596D48;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login-text:hover{
+    text-decoration: underline;
+}
+
+
+
