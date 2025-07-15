@@ -84,6 +84,7 @@ p,label,input{
     flex-direction: column;
     justify-content: flex-end;
     padding: 0 150px 0 40px;
+    font-weight: 600;
 }
 
 .signup{
